@@ -457,3 +457,29 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+section.skills {
+  margin-top: -140px;
+}
+
+.skills-list > li {
+  flex: auto;
+  width: 120px;
+}
+
+.skills-list {
+  display: flex;
+  margin: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+.skills-list img {
+  max-width: 75px;
+  max-height: 75px;
+}
