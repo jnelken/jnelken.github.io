@@ -87,7 +87,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background-image: url(http://viralpirate.com/wp-content/uploads/2015/08/space-stars-art-hd-wallpaper.jpg);
+    background-image: url(../img/space.jpg);
 }
 
 header .container {
@@ -187,7 +187,7 @@ section h2 {
 section.success {
     color: #fff;
     /*background: #1881bb;*/
-    background-image: url(http://viralpirate.com/wp-content/uploads/2015/08/space-stars-art-hd-wallpaper.jpg);
+    background-image: url(../img/space.jpg);
 }
 
 section.success a,
