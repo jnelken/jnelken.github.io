@@ -36,6 +36,10 @@ h6 {
     font-weight: 700;
 }
 
+img.star-light-img {
+  width: 250px;
+}
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -48,7 +52,7 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    content: "\f1ce";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -63,7 +67,8 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #1881bb;
+    margin:  0 auto;
+
 }
 
 hr.star-primary {
@@ -82,7 +87,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #1881bb;
+    background-image: url(http://viralpirate.com/wp-content/uploads/2015/08/space-stars-art-hd-wallpaper.jpg);
 }
 
 header .container {
@@ -181,7 +186,8 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #1881bb;
+    /*background: #1881bb;*/
+    background-image: url(http://viralpirate.com/wp-content/uploads/2015/08/space-stars-art-hd-wallpaper.jpg);
 }
 
 section.success a,
@@ -353,7 +359,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140;
+    background-color: #0b1014;
 }
 
 .btn-social {
@@ -470,8 +476,6 @@ section.skills {
 .skills-list {
   display: flex;
   margin: auto;
-  padding-left: 100px;
-  padding-right: 100px;
   padding-top: 20px;
 }
 
@@ -480,6 +484,15 @@ ul {
 }
 
 .skills-list img {
-  max-width: 75px;
-  max-height: 75px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+span.dl-text {
+  padding-left: 20px;
+  color: #ccc;
+}
+
+.fa-download {
+  color: #ccc;
 }
