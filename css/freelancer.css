@@ -490,9 +490,10 @@ ul {
 
 span.dl-text {
   padding-left: 20px;
-  color: #ccc;
+  color: #ddd;
+  font-weight: bolder;
 }
 
 .fa-download {
-  color: #ccc;
+  color: #ddd;
 }
