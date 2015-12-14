@@ -474,6 +474,7 @@ section.skills {
 }
 
 .skills-list {
+  background-color: #fff;
   display: flex;
   margin: auto;
   padding-top: 20px;
