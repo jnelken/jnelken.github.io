@@ -87,7 +87,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background-image: url(../img/space.jpg);
+    background-image: url(../img/jn_bkg.jpg);
 }
 
 header .container {
@@ -187,7 +187,7 @@ section h2 {
 section.success {
     color: #fff;
     /*background: #1881bb;*/
-    background-image: url(../img/space.jpg);
+    background-image: url(../img/jn_bkg.jpg);
 }
 
 section.success a,
@@ -470,18 +470,21 @@ section.skills {
 
 .skills-list > li {
   flex: auto;
-  width: 120px;
-}
-
-.skills-list {
-  background-color: #fff;
-  display: flex;
-  margin: auto;
-  padding-top: 20px;
+  width: 150px;
 }
 
 ul {
   list-style: none;
+}
+
+.skills-list {
+
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  padding-top: 20px;
+  padding-right: 50px;
 }
 
 .skills-list img {
