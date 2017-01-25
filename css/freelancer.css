@@ -468,29 +468,29 @@ section.skills {
   margin-top: -140px;
 }
 
-.skills-list > li {
+/*.skills-list > li {
   flex: auto;
   width: 150px;
-}
+}*/
 
 ul {
   list-style: none;
 }
 
 .skills-list {
-
   background-color: #fff;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   margin: auto;
   padding-top: 20px;
   padding-right: 50px;
 }
 
-.skills-list img {
+/*.skills-list img {
   max-width: 100px;
   max-height: 100px;
-}
+}*/
 
 span.dl-text {
   padding-left: 20px;
