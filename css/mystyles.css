@@ -15,6 +15,16 @@
   max-height: 90px;
 }
 
-.more-projects {
-  text-align: center;
+.more-projects a {
+  color: #fff;
+  /*font-weight: bold;*/
+  font-size: 20px;
+  display: block;
+  height: 8px;
+
+}
+.more-projects a:hover {
+  padding: 0;
+  font-size: 21px;
+  text-decoration: none;
 }
