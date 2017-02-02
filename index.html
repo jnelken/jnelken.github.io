@@ -633,37 +633,37 @@
     <script src="js/freelancer.js"></script>
     <img style="display:none;" src="img/thumbnail.png" />
     <script>
-      console.log('hello');
-      var openIssueOnDeactivation = function() {
-        var url = 'https://forest.okta.com/api/v1/events';
-        var query = encodeURI(`?filter=action.objectType eq "app.user_management.deactivate_user"`);
-        var oktaApiToken = '00itymPot3a6ftPr2TK4Ibz8PMGieLtOCb9g8FHcEz';
-
-        var oktaHeaders = new Headers({
-          'Access-Control-Allow-Origin':'*',
-          "Accept": "application/json",
-          "Content-Type": "application/json",
-          "Authorization": `SSWS ${oktaApiToken}`,
-        });
-
-        var options = {
-          method: 'GET',
-          headers: oktaHeaders,
-          mode: 'cors',
-          credentials: 'include'
-          // cache: 'default'
-        };
-
-        setInterval(function() {
-          fetch(url + query, options)
-          .then(function(response) {
-            console.log(response);
-            return response;
-          })
-          .catch(err => console.log(err))
-        }, 5000);
-      }
-      openIssueOnDeactivation();
+      // console.log('hello');
+      // var openIssueOnDeactivation = function() {
+      //   var url = 'https://forest.okta.com/api/v1/events';
+      //   var query = encodeURI(`?filter=action.objectType eq "app.user_management.deactivate_user"`);
+      //   var oktaApiToken = '00itymPot3a6ftPr2TK4Ibz8PMGieLtOCb9g8FHcEz';
+      //
+      //   var oktaHeaders = new Headers({
+      //     'Access-Control-Allow-Origin':'*',
+      //     "Accept": "application/json",
+      //     "Content-Type": "application/json",
+      //     "Authorization": `SSWS ${oktaApiToken}`,
+      //   });
+      //
+      //   var options = {
+      //     method: 'GET',
+      //     headers: oktaHeaders,
+      //     mode: 'cors',
+      //     // credentials: 'include'
+      //     // cache: 'default'
+      //   };
+      //
+      //   setInterval(function() {
+      //     fetch(url + query, options)
+      //     .then(function(response) {
+      //       console.log(response);
+      //       return response;
+      //     })
+      //     .catch(err => console.log(err))
+      //   }, 5000);
+      // }
+      // openIssueOnDeactivation();
     </script>
 </body>
 
